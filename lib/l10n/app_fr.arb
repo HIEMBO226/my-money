@@ -1,0 +1,426 @@
+{
+  "@@locale": "fr",
+  "appName": "My money",
+  "@appName": {
+    "description": "Nom de l'application"
+  },
+
+  "navDashboard": "Accueil",
+  "navTransactions": "Transactions",
+  "navBudgets": "Budgets",
+  "navStatistics": "Statistiques",
+  "navSettings": "Paramètres",
+
+  "add": "Ajouter",
+  "edit": "Modifier",
+  "delete": "Supprimer",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "confirm": "Confirmer",
+  "search": "Rechercher",
+  "filter": "Filtrer",
+  "retry": "Réessayer",
+  "close": "Fermer",
+  "loading": "Chargement en cours",
+
+  "transactionTypeExpense": "Dépense",
+  "transactionTypeIncome": "Revenu",
+  "transactionTypeTransfer": "Transfert",
+
+  "accountTypeCash": "Espèces",
+  "accountTypeBank": "Banque",
+  "accountTypeMobileMoney": "Mobile Money",
+  "accountTypeSavings": "Épargne",
+
+  "frequencyDaily": "Quotidien",
+  "frequencyWeekly": "Hebdomadaire",
+  "frequencyMonthly": "Mensuel",
+  "frequencyYearly": "Annuel",
+
+  "categoryFood": "Alimentation",
+  "categoryGroceries": "Courses",
+  "categoryTransport": "Transport",
+  "categoryHousing": "Logement",
+  "categoryBills": "Factures",
+  "categoryHealth": "Santé",
+  "categoryLeisure": "Loisirs",
+  "categoryShopping": "Shopping",
+  "categoryEducation": "Éducation",
+  "categoryOtherExpense": "Autres dépenses",
+  "categorySalary": "Salaire",
+  "categoryFreelance": "Freelance",
+  "categoryInvestment": "Investissements",
+  "categoryGifts": "Cadeaux",
+  "categoryOtherIncome": "Autres revenus",
+
+  "totalBalance": "Solde total",
+  "monthlyIncome": "Revenus du mois",
+  "monthlyExpenses": "Dépenses du mois",
+  "recentTransactions": "Transactions récentes",
+  "addTransaction": "Ajouter une transaction",
+
+  "amount": "Montant",
+  "date": "Date",
+  "category": "Catégorie",
+  "account": "Compte",
+  "note": "Note",
+  "selectCategory": "Choisir une catégorie",
+  "selectAccount": "Choisir un compte",
+
+  "budgetTitle": "Budgets",
+  "budgetProgress": "Progression",
+  "budgetWarning": "Attention : 80 % du budget atteint",
+  "budgetExceeded": "Budget dépassé",
+  "noBudgets": "Aucun budget défini",
+
+  "savingsGoals": "Objectifs d'épargne",
+  "targetAmount": "Montant cible",
+  "currentAmount": "Montant actuel",
+  "deadline": "Date limite",
+  "noGoals": "Aucun objectif d'épargne",
+
+  "noTransactions": "Aucune transaction",
+  "noAccounts": "Aucun compte",
+  "noCategories": "Aucune catégorie",
+
+  "currency": "Devise",
+  "dateFormat": "Format de date",
+  "theme": "Thème",
+  "themeLight": "Clair",
+  "themeDark": "Sombre",
+  "themeSystem": "Système",
+  "language": "Langue",
+  "pin": "Code PIN",
+  "biometrics": "Biométrie",
+  "exportData": "Exporter les données",
+  "importData": "Importer les données",
+
+  "currencyXof": "Franc CFA (XOF)",
+  "currencyEur": "Euro (EUR)",
+  "currencyUsd": "Dollar américain (USD)",
+  "currencyGbp": "Livre sterling (GBP)",
+  "currencyCad": "Dollar canadien (CAD)",
+  "currencyChf": "Franc suisse (CHF)",
+  "currencyMad": "Dirham marocain (MAD)",
+  "currencyTnd": "Dinar tunisien (TND)",
+  "currencyXaf": "Franc CFA (XAF)",
+  "currencyGnf": "Franc guinéen (GNF)",
+
+  "errorGeneric": "Une erreur inattendue s'est produite.",
+  "errorDatabase": "Erreur lors de l'accès aux données locales.",
+  "errorValidation": "Veuillez vérifier les champs saisis.",
+  "errorExport": "Erreur lors de l'exportation des données.",
+
+  "today": "Aujourd'hui",
+  "yesterday": "Hier",
+  "confirmDelete": "Confirmer la suppression",
+  "deleteConfirmMessage": "Cette action est irréversible. Voulez-vous continuer ?",
+
+  "accountsTitle": "Comptes",
+  "addAccount": "Ajouter un compte",
+  "editAccount": "Modifier le compte",
+  "accountName": "Nom du compte",
+  "accountNameHint": "Ex. Compte courant, Orange Money...",
+  "accountType": "Type de compte",
+  "initialBalance": "Solde initial",
+  "initialBalanceNote": "Solde initial",
+  "noAccountsSubtitle": "Ajoutez vos comptes (espèces, banque, mobile money, épargne) pour suivre vos soldes.",
+  "accountCreated": "Compte créé avec succès",
+  "accountUpdated": "Compte mis à jour",
+  "accountDeleted": "Compte supprimé",
+  "accountDeleteLinkedError": "Impossible de supprimer un compte lié à des transactions.",
+  "transfer": "Transférer",
+  "transferTitle": "Transfert entre comptes",
+  "fromAccount": "Compte source",
+  "toAccount": "Compte destination",
+  "transferSuccess": "Transfert effectué avec succès",
+  "transferSameAccountError": "Les comptes source et destination doivent être différents.",
+  "invalidAmountError": "Veuillez saisir un montant valide supérieur à zéro.",
+  "requiredFieldError": "Ce champ est obligatoire.",
+
+  "categoriesTitle": "Catégories",
+  "addCategory": "Ajouter une catégorie",
+  "editCategory": "Modifier la catégorie",
+  "categoryName": "Nom de la catégorie",
+  "categoryNameHint": "Ex. Café, Abonnements...",
+  "categoryType": "Type",
+  "expensesTab": "Dépenses",
+  "incomesTab": "Revenus",
+  "defaultBadge": "Par défaut",
+  "noCategoriesSubtitle": "Créez des catégories pour organiser vos revenus et dépenses.",
+  "categoryCreated": "Catégorie créée avec succès",
+  "categoryUpdated": "Catégorie mise à jour",
+  "categoryDeleted": "Catégorie supprimée",
+  "categoryDeleteDefaultError": "Les catégories par défaut ne peuvent pas être supprimées.",
+  "categoryDeleteUsedError": "Impossible de supprimer une catégorie utilisée par des transactions ou budgets.",
+
+  "selectIcon": "Icône",
+  "selectColor": "Couleur",
+  "settingsManagementSection": "Gestion",
+  "manageAccountsSubtitle": "Gérer vos comptes et effectuer des transferts",
+  "manageCategoriesSubtitle": "Personnaliser vos catégories de revenus et dépenses",
+
+  "editTransaction": "Modifier la transaction",
+  "transactionCreated": "Transaction enregistrée",
+  "transactionUpdated": "Transaction mise à jour",
+  "transactionDeleted": "Transaction supprimée",
+  "searchTransactionsHint": "Rechercher par note, catégorie ou compte...",
+  "noTransactionsSubtitle": "Appuyez sur + pour enregistrer votre première dépense ou votre premier revenu.",
+  "noMatchingTransactions": "Aucune transaction trouvée",
+  "noMatchingTransactionsSubtitle": "Essayez d'ajuster ou de réinitialiser vos filtres.",
+  "resetFilters": "Réinitialiser les filtres",
+  "applyFilters": "Appliquer",
+  "filtersTitle": "Filtres",
+  "period": "Période",
+  "allPeriods": "Toutes les dates",
+  "thisMonth": "Ce mois",
+  "lastMonth": "Mois dernier",
+  "last30Days": "30 derniers jours",
+  "customPeriod": "Personnalisée",
+  "allTypes": "Tous",
+  "allAccounts": "Tous les comptes",
+  "allCategories": "Toutes les catégories",
+  "amountRange": "Fourchette de montant",
+  "minAmount": "Montant min.",
+  "maxAmount": "Montant max.",
+  "loadMore": "Charger plus",
+  "attachment": "Pièce jointe",
+  "addAttachment": "Ajouter un justificatif",
+  "removeAttachment": "Retirer la pièce jointe",
+  "cameraOption": "Prendre une photo",
+  "galleryOption": "Choisir dans la galerie",
+  "noteHint": "Ajouter une note (optionnel)...",
+  "noAccountsPrompt": "Créez d'abord un compte pour enregistrer des transactions.",
+  "clearAmount": "Effacer le montant",
+  "backspace": "Effacer le dernier chiffre",
+  "selectType": "Type de transaction",
+  "uncategorized": "Sans catégorie",
+
+  "monthlyNet": "Solde du mois",
+  "expensesByCategory": "Dépenses par catégorie",
+  "incomesByCategory": "Revenus par catégorie",
+  "sixMonthTrend": "Évolution sur 6 mois",
+  "seeAll": "Voir tout",
+  "noExpensesThisMonth": "Aucune dépense ce mois-ci",
+  "noDataForPeriod": "Aucune donnée sur cette période",
+  "previousMonth": "Mois précédent",
+  "nextMonth": "Mois suivant",
+  "accountsCount": "{count, plural, =0{Aucun compte} =1{1 compte} other{{count} comptes}}",
+  "@accountsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "period3Months": "3 mois",
+  "period6Months": "6 mois",
+  "periodThisYear": "Cette année",
+  "netSavings": "Solde net",
+  "savingsRate": "Taux d'épargne",
+  "incomeVsExpense": "Revenus vs Dépenses",
+  "categoryDetails": "Détail par catégorie",
+  "welcomeDashboardSubtitle": "Créez votre premier compte ou enregistrez une transaction pour voir votre synthèse financière.",
+
+  "addBudget": "Ajouter un budget",
+  "editBudget": "Modifier le budget",
+  "budgetLimit": "Plafond mensuel",
+  "budgetSpent": "Dépensé",
+  "budgetRemaining": "Restant",
+  "budgetOverBy": "Dépassé de {amount}",
+  "@budgetOverBy": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetTotalMonthly": "Budget mensuel total",
+  "noBudgetsSubtitle": "Fixez un plafond mensuel par catégorie pour maîtriser vos dépenses et recevoir des alertes à 80 % et 100 %.",
+  "budgetSaved": "Budget enregistré",
+  "budgetDeleted": "Budget supprimé",
+  "budgetAlertWarningTitle": "Alerte budget (80 %)",
+  "budgetAlertExceededTitle": "Budget dépassé (100 %)",
+  "budgetAlertBody": "{category} : {percentage} % utilisé ({spent} / {limit})",
+  "@budgetAlertBody": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "int"
+      },
+      "spent": {
+        "type": "String"
+      },
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
+  "allCategoriesBudgeted": "Toutes vos catégories de dépenses ont déjà un budget pour ce mois.",
+
+  "recurringTitle": "Transactions récurrentes",
+  "manageRecurringSubtitle": "Loyer, abonnements, salaire générés automatiquement",
+  "addRecurring": "Ajouter une récurrence",
+  "editRecurring": "Modifier la récurrence",
+  "noRecurring": "Aucune transaction récurrente",
+  "noRecurringSubtitle": "Programmez vos loyers, abonnements ou salaires pour les générer automatiquement à l'ouverture de l'application.",
+  "frequency": "Fréquence",
+  "nextDueDate": "Prochaine échéance",
+  "endDateOptional": "Date de fin (optionnel)",
+  "noEndDate": "Aucune date de fin",
+  "recurringCreated": "Transaction récurrente enregistrée",
+  "recurringUpdated": "Transaction récurrente mise à jour",
+  "recurringDeleted": "Transaction récurrente supprimée",
+  "recurringActiveLabel": "Activer {name}",
+  "@recurringActiveLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "recurringPaused": "En pause",
+  "runDueNow": "Générer les échéances dues",
+  "recurringGeneratedCount": "{count, plural, =0{Aucune échéance due à générer} =1{1 transaction générée} other{{count} transactions générées}}",
+  "@recurringGeneratedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "manageGoalsSubtitle": "Suivre votre épargne vers vos projets",
+  "addGoal": "Nouvel objectif",
+  "editGoal": "Modifier l'objectif",
+  "goalName": "Nom de l'objectif",
+  "goalNameHint": "Ex. Fonds d'urgence, Voyage, Voiture...",
+  "noGoalsSubtitle": "Créez des objectifs d'épargne avec un montant cible et une date limite pour suivre votre progression.",
+  "goalCreated": "Objectif créé avec succès",
+  "goalUpdated": "Objectif mis à jour",
+  "goalDeleted": "Objectif supprimé",
+  "contribute": "Contribuer",
+  "contributeTitle": "Ajouter une contribution",
+  "contributionAdded": "Contribution ajoutée",
+  "goalCompleted": "Objectif atteint !",
+  "deadlineOptional": "Date limite (optionnel)",
+  "noDeadline": "Aucune date limite",
+  "linkedAccountOptional": "Compte d'épargne associé (optionnel)",
+  "noLinkedAccount": "Aucun compte associé",
+  "daysRemaining": "{count, plural, =0{Échéance aujourd'hui} =1{1 jour restant} other{{count} jours restants}}",
+  "@daysRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deadlinePassed": "Date limite dépassée",
+  "totalSaved": "Total épargné",
+
+  "settingsPreferencesSection": "Préférences",
+  "settingsDataSection": "Données",
+  "exportImportTitle": "Export & Sauvegarde",
+  "exportImportSubtitle": "CSV, rapport PDF et sauvegarde JSON chiffrée",
+  "languageFrench": "Français",
+  "languageEnglish": "English",
+  "exportCsvTitle": "Exporter en CSV",
+  "exportCsvSubtitle": "Tableau compatible Excel de toutes vos transactions",
+  "exportPdfTitle": "Exporter un rapport PDF",
+  "exportPdfSubtitle": "Synthèse des comptes et historique formaté",
+  "encryptedBackupSection": "Sauvegarde locale chiffrée (AES-256)",
+  "backupJsonTitle": "Créer une sauvegarde chiffrée",
+  "backupJsonSubtitle": "Exporte toutes vos données en JSON chiffré par mot de passe",
+  "restoreJsonTitle": "Restaurer une sauvegarde",
+  "restoreJsonSubtitle": "Remplace les données locales depuis un fichier de sauvegarde",
+  "backupPasswordTitle": "Mot de passe de chiffrement",
+  "restorePasswordTitle": "Mot de passe de la sauvegarde",
+  "passwordLabel": "Mot de passe",
+  "confirmPasswordLabel": "Confirmer le mot de passe",
+  "passwordMinLengthError": "Le mot de passe doit contenir au moins 6 caractères.",
+  "passwordMismatchError": "Les mots de passe ne correspondent pas.",
+  "exportSuccess": "Export généré et prêt à être partagé",
+  "restoreConfirmTitle": "Restaurer la sauvegarde ?",
+  "restoreConfirmMessage": "Toutes vos données actuelles seront remplacées par celles de la sauvegarde.",
+  "restoreSuccess": "Sauvegarde restaurée ({transactions} transactions, {accounts} comptes)",
+  "@restoreSuccess": {
+    "placeholders": {
+      "transactions": {
+        "type": "int"
+      },
+      "accounts": {
+        "type": "int"
+      }
+    }
+  },
+  "invalidBackupError": "Mot de passe incorrect ou fichier de sauvegarde invalide.",
+
+  "settingsSecuritySection": "Sécurité",
+  "securityTitle": "Sécurité et confidentialité",
+  "securitySubtitle": "Code PIN, biométrie, verrouillage automatique",
+  "pinEnabledStatus": "Code PIN activé",
+  "pinDisabledStatus": "Désactivé",
+  "enablePin": "Activer le code PIN",
+  "changePin": "Modifier le code PIN",
+  "disablePin": "Désactiver le code PIN",
+  "enterCurrentPin": "Saisissez votre code PIN actuel",
+  "enterNewPin": "Choisissez un code PIN à 4 chiffres",
+  "confirmNewPin": "Confirmez votre code PIN",
+  "enterPinToUnlock": "Saisissez votre code PIN pour déverrouiller My money",
+  "wrongPinError": "Code PIN incorrect. Veuillez réessayer.",
+  "pinMismatchError": "Les codes PIN ne correspondent pas.",
+  "pinSavedSuccess": "Code PIN enregistré",
+  "pinRemovedSuccess": "Code PIN désactivé",
+  "biometricsReason": "Authentifiez-vous pour déverrouiller My money",
+  "biometricsSubtitle": "Utiliser l'empreinte digitale ou Face ID",
+  "biometricsUnavailable": "Non disponible sur cet appareil",
+  "useBiometrics": "Déverrouiller par biométrie",
+  "autoLockTimeout": "Verrouillage automatique",
+  "autoLockImmediate": "Immédiat en arrière-plan",
+  "autoLockMinutes": "{minutes, plural, =1{Après 1 minute} other{Après {minutes} minutes}}",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "hideInAppSwitcher": "Masquer dans les apps récentes",
+  "hideInAppSwitcherSubtitle": "Affiche un écran de confidentialité dans l'aperçu multitâche",
+  "lockNow": "Verrouiller maintenant",
+  "pinDigitEntered": "{count} chiffres saisis sur {total}",
+  "@pinDigitEntered": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDeveloperSection": "Outils développeur (Debug)",
+  "loadDemoData": "Charger les données de démonstration",
+  "loadDemoDataSubtitle": "Ajoute des comptes, transactions, budgets, récurrences et objectifs fictifs",
+  "loadDemoDataConfirmTitle": "Charger les données de démo ?",
+  "loadDemoDataConfirmBody": "Cette action remplace ou complète la base locale avec un jeu de données réaliste sur 6 mois (mode debug uniquement).",
+  "demoDataLoaded": "Données de démo chargées ({accounts} comptes, {transactions} transactions)",
+  "@demoDataLoaded": {
+    "placeholders": {
+      "accounts": {
+        "type": "int"
+      },
+      "transactions": {
+        "type": "int"
+      }
+    }
+  },
+  "resetAllData": "Réinitialiser toutes les données",
+  "resetAllDataSubtitle": "Supprime toutes les données locales et restaure les catégories par défaut",
+  "resetAllDataConfirmTitle": "Tout réinitialiser ?",
+  "resetAllDataConfirmBody": "Tous les comptes, transactions, budgets, récurrences et objectifs seront définitivement supprimés.",
+  "allDataReset": "Toutes les données locales ont été réinitialisées",
+  "aboutAppSubtitle": "100 % hors ligne • Vos données restent sur votre appareil"
+}
